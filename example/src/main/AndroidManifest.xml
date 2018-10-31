@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tuacy.example">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".history.HistoryMainActivity" />
+
+        <activity android:name=".history.weight.WeightActivity" />
+
+        <activity android:name=".history.score.ScoreActivity" />
+
+        <activity android:name=".history.rowdivider.RowDividerActivity" />
+
+        <activity android:name=".history.columndivider.ColumnDividerActivity" />
+
+        <activity android:name=".history.refresh.RefreshActivity" />
+
+        <activity android:name=".perfect.RefreshMainActivity" />
+
+        <activity android:name=".perfect.normal.PerfectNormalActivity" />
+
+        <activity android:name=".perfect.title.PerfectTitleActivity" />
+
+        <activity android:name=".perfect.refresh.PerfectRefreshActivity" />
+
+        <activity android:name=".perfect.divider.DividerActivity" />
+
+        <activity android:name=".stick.StickyNavActivity" />
+
+    </application>
+
+</manifest>
